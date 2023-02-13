@@ -1,0 +1,13 @@
+<templates xml:space="preserve">
+    <t t-inherit="web.SwitchCompanyMenu" t-inherit-mode="extension">
+        <xpath expr="//div[hasclass('dropdown-menu-right')]//t[1]" position="before">
+            <button class="btn btn-primary btn-select-all" type="button" style="margin-right: 5px; margin-bottom: 2px;">
+                Select All
+            </button>
+
+            <button class="btn btn-secondary btn-deselect-all" type="button" style="margin-bottom: 2px;">
+                Deselect
+            </button>
+        </xpath>
+    </t>
+</templates>

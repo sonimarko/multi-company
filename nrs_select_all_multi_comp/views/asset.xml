@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets_backends" name="project assets" inherit_id="web.assets_backend">
+        <xpath expr="//script[@src='/web/static/src/js/widgets/switch_company_menu.js']" position="replace">
+            <script type="text/javascript" src="/nrs_select_all_multi_comp/static/src/js/selection.js"></script>
+        </xpath>
+    </template>
+</odoo>
